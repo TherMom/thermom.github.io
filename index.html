@@ -7,6 +7,7 @@
 		<title>TherMom</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/app.css">
 		<!-- <link rel="stylesheet" href="css/theme/black.css"> -->
 
 <style>
@@ -306,11 +307,30 @@ X Только для одного ребенка
                     </div>
                 </section>
                 <section data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/53536/images/2537863/bg.jpg">
-                    <div class="sl-block" data-block-type="iframe" style="min-width: 30px; min-height: 30px; width: 826px; height: 684px; left: 54px; top: 115px;">
-                        <div class="sl-block-content" style="z-index: 12;">
-                            <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://s.codepen.io/suenot/debug/yORNeK"></iframe>
-                        </div>
-                    </div>
+
+
+<div class="container">
+  <div class="card"></div>
+  <div class="card">
+    <h1 class="title">Сделать предзаказ</h1>
+    <form>
+      <div class="input-container">
+        <input type="text" id="Имя" required="required"/>
+        <label for="Имя">Имя</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="email" id="Email" required="required"/>
+        <label for="Email">Email</label>
+        <div class="bar"></div>
+      </div>
+      <div class="button-container">
+        <button><span>Поехали!</span></button>
+      </div>
+    </form>
+  </div>
+</div>
+
                 </section>
             </section>
         </div>
